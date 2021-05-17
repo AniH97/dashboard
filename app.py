@@ -9,12 +9,12 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 from datetime import datetime
-import seaborn as sb  # Statistics data visualization base on matplotlib
+#import seaborn as sb  # Statistics data visualization base on matplotlib
 from sklearn.cluster import KMeans
 from pandas import DataFrame
-import matplotlib.ticker as ticker  # import a special package
+#import matplotlib.ticker as ticker  # import a special package
 from numpy import inf
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
@@ -96,15 +96,6 @@ all_data = all_data.set_index ('Date', drop = True)
 
 #Drop empty columns
 all_data = all_data.dropna()
-
-fig, ax = plt.subplots() # create objects of the plot (figure and plot inside)
-fig.set_size_inches(20,10) # define figure size
-
-ax.xaxis.set_major_locator (ticker.MultipleLocator(60)) # define the interval between ticks on x axis 
-    # Try changing (the number) to see what it does
-ax.xaxis.set_tick_params (which = 'major', pad = 5, labelrotation = 50)
-    # parameters of major labels of x axis: pad = distance to the axis;
-    # label rotation = angle of label text (in degrees)
 
 
 # Plot:
