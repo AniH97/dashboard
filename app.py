@@ -27,7 +27,7 @@ import plotly.graph_objects as go
 #import dash_table
 
 #define stylesheet
-external_stylesheets = ['mystyle.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 #import data files:
 raw_data_holiday = pd.read_csv('holiday_17_18_19.csv')
