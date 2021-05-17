@@ -10,21 +10,21 @@ import dash_html_components as html
 import pandas as pd
 import numpy as np
 #from matplotlib import pyplot as plt
-from datetime import datetime
+#from datetime import datetime
 #import seaborn as sb  # Statistics data visualization base on matplotlib
 from sklearn.cluster import KMeans
-from pandas import DataFrame
+#from pandas import DataFrame
 #import matplotlib.ticker as ticker  # import a special package
-from numpy import inf
+#from numpy import inf
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from dash.dependencies import Input, Output
 import plotly.express as px
-import plotly.io as io
-import matplotlib.colors as mcolors
-from plotly.subplots import make_subplots
+#import plotly.io as io
+#import matplotlib.colors as mcolors
+#from plotly.subplots import make_subplots
 import plotly.graph_objects as go
-import dash_table
+#import dash_table
 
 #define stylesheet
 external_stylesheets = ['mystyle.css']
