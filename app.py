@@ -285,7 +285,7 @@ table_RF = go.Figure(data=[go.Table(header=dict(values=['MAE', 'MSE', 'RMSE','cv
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div([
-    html.Img(src=app.get_asset_url('IST_logo.png'), height="70"),
+    #html.Img(src=app.get_asset_url('IST_logo.png'), height="70"),
     html.H2('Main Building Tecnico - Power Consumption'),
     dcc.Tabs(id='tabs', value='tab-1', children=[
         dcc.Tab(label='Raw Data', value='tab-1'),
